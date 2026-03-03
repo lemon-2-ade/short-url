@@ -1,10 +1,21 @@
 # URL Shortener
 
-A clean, professional URL shortening service with a modern frontend and robust backend.
+> https://url-shortner-phi-one.vercel.app/
 
-## Tech Stack
+A simple URL shortening service built with Next.js and Node.js.
 
-- **Frontend**: Next.js, React, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (Mongoose)
-- **Rate Limiting**: 20 URLs per IP per 24 hours
+## Stack
+
+- Frontend: Next.js + Tailwind CSS
+- Backend: Node.js + Express + MongoDB
+- Rate limited: 20 URLs/day per IP
+
+## Local Development
+
+```bash
+# Backend
+cd backend && npm install && npm run dev
+
+# Frontend  
+cd frontend && npm install && npm run dev
+```
